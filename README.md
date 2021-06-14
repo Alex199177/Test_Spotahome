@@ -17,17 +17,20 @@ git commit -m "Calculo media por anio"
 
 git add Test_Spotahome.ipynb
 
-git commit -m "Grafica"
-
-git checkout main
-
-git merge ReadCsv
-
-
-
-git add Test_Spotahome.ipynb
 
 git commit -m "Grafica"
+
+
+git push origin ReadCsv
+
+
+git checkout -b add_comments
+
+
+git add Test_spotahome.ipynb
+
+
+git push origin add_comments
 
 
 
