@@ -43,6 +43,7 @@ git checkout -b add_comments
 
 git add Test_spotahome.ipynb
 
+git commit -m "Add comments"
 
 git push origin add_comments
 
